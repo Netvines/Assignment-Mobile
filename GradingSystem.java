@@ -5,7 +5,36 @@ public class GradingSystem{
 	char grade;
 
 	//Declaring getter methods for grades
+
+	// I started my work here
+
+	public String getName(){
+		return name;
+	}
 	
+	public void setName(String name){
+		this.name = name;
+	}
+
+
+	public String getDepartment(){
+		return department;
+	}
+	
+	public void setDepartment(String name){
+		this.department = name;
+	}
+
+	public String getCourse(){
+		return courses;
+	}
+	
+	public void setCourse(String name){
+		this.courses = name;
+	}
+
+
+
 	public char getGradeA(){
 		return grade;
 	}
